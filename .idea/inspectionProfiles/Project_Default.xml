@@ -1,0 +1,51 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="bryanskfront.bryanskfront.apps.news.models.Profile.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.Citys.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.CurentCourse.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.Loger.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.Words.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.CityNews.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.TGposts.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.YandexNewsCity.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.VKFoto.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.Twitter.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.PeopleNews.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.VKText.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.CityNews.DoesNotExist" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.PeopleNews.DoesNotExist" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.VKFoto.DoesNotExist" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.Twitter.DoesNotExist" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.VKText.DoesNotExist" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.YandexNewsCity.DoesNotExist" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.Rss.objects" />
+          <option value="bryanskfront.bryanskfront.apps.news.models.Actions.objects" />
+          <option value="cfs.cfs.apps.game.models.NodeMine.*" />
+          <option value="cfs.cfs.apps.game.models.Coub.*" />
+          <option value="ysa_bot.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SyntaxError" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
