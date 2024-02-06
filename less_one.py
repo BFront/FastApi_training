@@ -12,11 +12,6 @@ fake_base = [
     {'id':5,'name':'Nina', 'money':100},
 ]
 
-@app.get('/')
-def hello():
-    return "HW"
-
-@app.get('/user/{user_id}')
+@app.get('/people/{user_id}')
 def info_user(user_id: int):
-    otvet = [user for user in fake_base if user.get('id') == user_id]
-    return otvet
+    return [user for user in fake_base if user.get('id') == user_id]
